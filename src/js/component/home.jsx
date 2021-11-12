@@ -12,7 +12,7 @@ const Home = props => {
 		setListItem(deleted);
 		setCount(prevCount => prevCount - 1);
 	}
- 
+
 	function toggle() {
 		setState();
 		if (value !== "") {
